@@ -20,12 +20,15 @@ use Mailgun\Model\MailingList\Member\IndexResponse;
 use Mailgun\Model\MailingList\Member\ShowResponse;
 use Mailgun\Model\MailingList\Member\UpdateResponse;
 use Mailgun\Model\MailingList\UpdateResponse as MailingListUpdateResponse;
+use Mailgun\Api\Pagination;
 
 /**
  * @see https://documentation.mailgun.com/en/latest/api-mailinglists.html
  */
 class Member extends HttpApi
 {
+    use Pagination;
+    
     /**
      * Returns a paginated list of members of the mailing list.
      *
