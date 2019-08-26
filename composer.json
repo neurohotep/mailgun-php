@@ -1,5 +1,5 @@
 {
-    "name": "mailgun/mailgun-php",
+    "name": "neurohotep/mailgun-php",
     "description": "The Mailgun SDK provides methods for all API functions.",
     "require": {
         "php": "^5.5 || ^7.0",
